@@ -43,3 +43,13 @@
 		}
 	}
 }
+@mixin dark-bg-link-color( $color ) {
+	section.has-dark-background {
+		a {
+			color: $color;
+		}
+		a:hover {
+			color: darken( $color, 20% );
+		}
+	}
+}

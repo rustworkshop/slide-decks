@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js - Markdown Example</title>
+
+		<link rel="stylesheet" href="../dist/reveal.css">
+		<link rel="stylesheet" href="../dist/theme/rust-workshop.css" id="theme">
+
+        <link rel="stylesheet" href="../plugin/highlight/solarized-light.css">
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+                <div class="slides-overlay">
+                    <img class="workshop-overlay-logo" src="assets/rust-workshop-icon.svg" />
+                    <span>&copy; 2023 Charm Consulting Ltd.</span>
+                </div>
+
+				<section data-background="#111111">
+					<img class="r-stretch" src="assets/rust-workshop-square-no-background.svg" alt="The Rust Workshop"/>
+                    <p>
+                        <a href="https://rustworkshop.co/">rustworkshop.co</a>
+                    </p>
+                    <p>
+                        <small>&copy; 2023</small>
+                    </p>
+                    <aside class="notes">
+                        Speaker notes from html here.
+
+                        <ul>
+                            <li>First and last slide are html generated</li>
+                            <li>All slides in between are from the markdown file</li>
+                            <li>This gives us better control of layout for the first/last slide.</li>
+                        </ul>
+                    </aside>
+                </section>
+
+                <!-- "data-separator" defines what splits slides. RegEx. -->
+                <!-- "data-separator-vertical" defines what splits sub-slides (the ones you navigate up/down instead of left-right) -->
+                <!-- "data-separator-notes" defines the magic string that will hide speaker note -->
+                <section class="markdown-slides" data-markdown="rust-workshop.md" data-separator="^---$" data-separator-vertical="^--$" data-separator-notes="^\*\*Speaker Notes:\*\*$" data-charset="utf-8">
+                </section>
+
+				<section data-background="#111111">
+					<img class="r-stretch" src="assets/rust-workshop-square-no-background.svg" alt="The Rust Workshop"/>
+                    <p>
+                        <a href="https://rustworkshop.co/">rustworkshop.co</a>
+                    </p>
+                    <p>
+                        <small>&copy; 2023</small>
+                    </p>
+				</section>
+            </div>
+		</div>
+
+		<script src="../dist/reveal.js"></script>
+        <script src="../plugin/markdown/markdown.js"></script>
+        <script src="../plugin/highlight/highlight.js"></script>
+        <script src="../plugin/notes/notes.js"></script>
+        <script src="../plugin/math/math.js"></script>
+
+		<script>
+
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath.KaTeX ]
+			});
+
+		</script>
+
+	</body>
+</html>
