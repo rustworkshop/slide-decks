@@ -1,3 +1,32 @@
+<!-- .slide: data-background="#111111" -->
+
+## Master Deck <br> to Copy & Modify
+
+<p>
+<a href="https://twitter.com/tim_abell">
+<img src="../assets/twitter-white.svg" style="height:25px; margin: 0;" alt="twitter"/>
+@tim_abell</a>
+</p>
+
+----
+
+<div style="">
+    <div ss="r-stack" style="float: left; height 200px; width: 450px;">
+        <img style="height: 200px;" src="../assets/rust-workshop-square-no-background.svg" alt="The Rust Workshop"/>
+    </div>
+    <div style="float: left; width: 500px;">
+    <p style="margin: 25px 0 0 0;">
+        Rust software engineering<br>for your business
+    </p>
+    <p style="margin: 20px 0 0 0;">
+        <a href="https://rustworkshop.co/">rustworkshop.co</a>
+    </p>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+
+---
+
 ## Slides from markdown
 
 This and the following slides are from
@@ -168,3 +197,36 @@ From here
 
 1. [RevealJs Markdown Cheatsheet (DevOpsSchool.com)](https://www.devopsschool.com/blog/reveal-js-markdown-cheatsheet-complete-guide/)
 2. The text magically switches to light when the background is detected as "dark".
+
+---
+
+<!-- .slide: data-background="#111111" -->
+
+## Master Deck <br> to Copy & Modify
+
+<p>
+<a href="https://twitter.com/tim_abell">
+<img src="../assets/twitter-white.svg" style="height:25px; margin: 0;" alt="twitter"/>
+@tim_abell</a>
+</p>
+
+----
+
+<div style="">
+    <div ss="r-stack" style="float: left; height 200px; width: 450px;">
+        <img style="height: 200px;" src="../assets/rust-workshop-square-no-background.svg" alt="The Rust Workshop"/>
+    </div>
+    <div style="float: left; width: 500px;">
+    <p style="margin: 25px 0 0 0;">
+        Rust software engineering<br>for your business
+    </p>
+    <p style="margin: 20px 0 0 0;">
+        <a href="https://rustworkshop.co/">rustworkshop.co</a>
+    </p>
+    </div>
+    <div style="clear:both;"></div>
+</div>
+
+**Speaker Notes:**
+
+The title slide is intentionally repeated at the end. Have this slide up while taking questions so that there's plenty of time for people to grab contact details and be reminded of who we are.

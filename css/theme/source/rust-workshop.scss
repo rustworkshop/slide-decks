@@ -49,3 +49,13 @@ $selectionBackgroundColor: #26351C;
     height: 15px;
   }
 }
+
+li {
+  line-height: 1.5em;
+}
+
+.no-bullets {
+  li {
+    list-style: none;
+  }
+}

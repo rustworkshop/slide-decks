@@ -377,3 +377,11 @@ section.has-dark-background a:hover {
   margin: 0 1px -1px 0;
   height: 15px;
 }
+
+li {
+  line-height: 1.5em;
+}
+
+.no-bullets li {
+  list-style: none;
+}
